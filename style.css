@@ -2,7 +2,39 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  color: #263138;
 }
 header {
   background: #FF9A6C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+header nav a {
+  color: #FFF;
+  font-weight: 600;
+  padding: 32px;
+  text-decoration: none;
+}
+#inicio {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 24px 80px 128px 80px;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+h1, h2 {
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 32px;
 }
