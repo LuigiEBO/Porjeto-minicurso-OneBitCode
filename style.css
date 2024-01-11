@@ -107,7 +107,16 @@ border-right: 1px solid #FF725E;
 border-bottom: 1px solid #FF725E;
 border-left: 1px solid #FF725E;
 margin-top: -8px;
-padding: 24px;
+padding: 0 24px;
+height: 0;
+opacity: 0;
+overflow: hidden;
+transition: .5s;
+}
+.duvida.ativa .paragrafo {
+  height: fit-content;
+  opacity: 1;
+  padding: 24px;
 }
 footer {
   background-color: rgba(255, 152, 108, 0.25);
